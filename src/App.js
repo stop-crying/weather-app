@@ -45,7 +45,7 @@ function App() {
       className={` bg-gradient-to-bl h-screen flex items-center justify-center sm:bg-gradient-to-bl sm:w-full sm:h-screen sm:flex sm:items-center sm:justify-center sm:font-bai xl:h-screen xl:bg-gradient-to-bl xl:flex xl:items-center xl:justify-center lg:h-screen lg:bg-gradient-to-bl lg:flex lg:items-center lg:justify-center  ${formatBackground()}`}
     >
       <div
-        className={`mx-auto max-w-screen-md mt-4 py-5 px-32 bg-gradient-to-br  h-fit shadow-2xl rounded-xl sm:p-4 sm:mx-3 ring-transparent xl:ring-0 xl:mx-auto xl:max-w-screen-md xl:mt-4 xl:py-5 xl:px-32 xl:bg-gradient-to-br xl:h-fit xl:shadow-2xl xl:rounded-xl lg:ring-0 lg:mx-auto lg:max-w-screen-md lg:mt-4 lg:py-5 lg:px-32 lg:bg-gradient-to-br lg:h-fit lg:shadow-2xl lg:rounded-xl    ${formatBackground()}`}
+        className={`mx-auto max-w-screen-md mt-4 py-5 px-32 bg-gradient-to-br  h-fit shadow-2xl rounded-xl sm:p-4 sm:mx-auto sm:max-w-screen-sm sm:mt-12 sm:py-3 sm:px-12 sm:h-fit sm:shadow-2xl sm:rounded-xl ring-transparent xl:ring-0 xl:mx-auto xl:max-w-screen-md xl:mt-4 xl:py-5 xl:px-32 xl:bg-gradient-to-br xl:h-fit xl:shadow-2xl xl:rounded-xl lg:ring-0 lg:mx-auto lg:max-w-screen-md lg:mt-4 lg:py-5 lg:px-32 lg:bg-gradient-to-br lg:h-fit lg:shadow-2xl lg:rounded-xl    ${formatBackground()}`}
       >
         <TopButtons setQuery={setQuery} />
         <Inputs setQuery={setQuery} units={units} setUnits={setUnits} />

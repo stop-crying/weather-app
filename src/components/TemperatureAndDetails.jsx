@@ -64,21 +64,21 @@ function TemperatureAndDetails({
         <UilSunset />
         <p className="font-light">
           Set:{" "}
-          <span className="font-medium ml-1">
+          <span className="font-medium ml-1 sm:text-start">
             {formatToLocalTime(sunset, timezone, "hh:mm a")}
           </span>
         </p>
         <p className="font-light">|</p>
 
         <UilSun />
-        <p className="font-light sm:flex sm:items-center sm:justify-center sm:gap-1">
+        <p className="font-light">
           High:{" "}
-          <span className="font-medium ml-1">{`${temp_max.toFixed()}°`}</span>
+          <span className="font-medium ml-1 sm:text-start">{`${temp_max.toFixed()}°`}</span>
         </p>
         <p className="font-light">|</p>
 
         <UilSun />
-        <p className="font-light sm:flex sm:items-center sm:justify-center sm:gap-1">
+        <p className="font-light">
           Low:{" "}
           <span className="font-medium ml-1">{`${temp_min.toFixed()}°`}</span>
         </p>
